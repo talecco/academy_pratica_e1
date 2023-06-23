@@ -6,7 +6,7 @@ void main() {
   double peso = 78.8;
   String? nacionalidade = null;
 
-  List<dynamic> resultado = [nome, sobrenome, peso];
+  List<dynamic> resultado = [nome, sobrenome];
   print('Nome completo: ${resultado[0]} ${resultado[1]}');
 
   if (idade < 18) {
